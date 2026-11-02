@@ -12,5 +12,24 @@ Remember, it's self-paced so feel free to take a break! ☕️
 
 ---
 
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+## Git workflow checklist
 
+Use these commands to practice the complete feature-branch workflow:
+
+```bash
+# Switch to your feature branch
+git switch samplet-test
+
+# Review your changes, then save them locally
+git status
+git add .
+git commit -m "Add Git workflow checklist"
+
+# Publish the branch to GitHub
+git push -u origin samplet-test
+```
+
+After pushing, open a pull request so another developer can review and merge
+your changes into the main branch.
+
+&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
